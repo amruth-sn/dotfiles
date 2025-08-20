@@ -1,0 +1,1 @@
+/Users/amruth/.p10k.zsh
