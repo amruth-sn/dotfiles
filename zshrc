@@ -51,3 +51,14 @@ alias gp='git pull'
 alias gc='git commit'
 alias clr='clear'
 
+export JAVA_HOME=/opt/homebrew/opt/openjdk@17
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
+# bun completions
+[ -s "/Users/amruth/.bun/_bun" ] && source "/Users/amruth/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
